@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+.header {
+    background-color: #ffffff;
+    text-align: center;
+
+}
+
+.header img {
+    width: 200px;
+    /* Устанавливает ширину картинок */
+    height: auto;
+    /* Поддерживает пропорции */
+    margin: 10px;
+    /* Устанавливает отступы между картинками */
+}
+
+
+h1 {
+    color: #333;
+}
+
+.page-title {
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #d64e2f;
+
+    color: #fcf8f8;
+
+    border: none;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+    transition: background-color 0.3s ease;
+
+}
+
+button:hover {
+    background-color: #f5a106;
+
+}
+
+#taskList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#noTasks {
+    color: #999;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
